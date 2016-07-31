@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>张宾个人博客</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/sliders.js"></script>
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<!-- 返回顶部调用 begin -->
+<script type="text/javascript" src="js/up/jquery.js"></script>
+<script type="text/javascript" src="js/up/js.js"></script>
+<!-- 返回顶部调用 end-->
+</head>
+<body>
+<header>
+  <div class="logo f_l"> <a href="/"><img src="images/logo.jpg"></a> </div>
+  <nav id="topnav" class="f_r">
+    <ul>
+      <a href="index.html" target="_blank">首页</a> <a href="news.html" target="_blank">关于我</a> <a href="p.html" target="_blank">文章</a> <a href="a.html" target="_blank">心情</a> <a href="c.html" target="_blank">相册</a> <a href="b.html" target="_blank">留言</a>
+    </ul>
+    <script src="js/nav.js"></script> 
+  </nav>
+</header>
+<article>
+  <div class="l_box f_l">
+    <div class="banner">
+      <div id="slide-holder">
+        <div id="slide-runner"> <a href="/" target="_blank"><img id="slide-img-1" src="images/a1.jpg"  alt="" /></a> <a href="/" target="_blank"><img id="slide-img-2" src="images/a2.jpg"  alt="" /></a> <a href="/" target="_blank"><img id="slide-img-3" src="images/a3.jpg"  alt="" /></a> <a href="/" target="_blank"><img id="slide-img-4" src="images/a4.jpg"  alt="" /></a>
+          <div id="slide-controls">
+            <p id="slide-client" class="text"><strong></strong><span></span></p>
+            <p id="slide-desc" class="text"></p>
+            <p id="slide-nav"></p>
+          </div>
+        </div>
+      </div>
+      <script>
+	  if(!window.slider) {
+		var slider={};
+	}
+
+	slider.data= [
+    {
+        "id":"slide-img-1", // 与slide-runner中的img标签id对应
+        "client":"Fred Brooks",
+        "desc":"优秀的判断力来自经验，但经验来自于错误的判断。" //这里修改描述
+    },
+    {
+        "id":"slide-img-2",
+        "client":"Steve McConnell",
+        "desc":"当你想在你的代码中找到一个错误时，这很难；当你认为你的代码是不会有错误时，这就更难了。"
+    },
+    {
+        "id":"slide-img-3",
+        "client":"Bill Gates",
+        "desc":"用代码行数来测评软件开发进度，就相对于用重量来计算飞机建造进度。"
+    },
+    {
+        "id":"slide-img-4",
+        "client":"Tom Cargill",
+        "desc":"最初的90%的代码用去了最初90%的开发时间。余下的10%的代码用掉另外90%的开发时间。"
+    } 
+	];
+
+	  </script> 
+    </div>
+    <!-- banner代码 结束 -->
+    <div class="topnews">
+      <h2><span><a href="/" target="_blank">栏目标题</a><a href="/" target="_blank">栏目标题</a><a href="/" target="_blank">栏目标题</a></span><b>文章</b>推荐</h2>
+      <div class="blogs">
+        <figure><img src="images/01.jpg"></figure>
+        <ul>
+          <h3><a href="/">《JavaScript 闯关记》之简介</a></h3>
+          <p>JavaScript 是面向 Web 的编程语言，绝大多数现代网站都使用了 JavaScript，并且所有的现代 Web 浏览器（电脑，手机，平板）均包含了 JavaScript 解释器。 这使得 JavaScript 能够称得上史上使用最广泛的编程语言 ...</p>
+          <p class="autor"><span class="lm f_l"><a href="/">个人博客</a></span><span class="dtime f_l">2016-02-19</span><span class="viewnum f_r">浏览（<a href="/">459</a>）</span><span class="pingl f_r">评论（<a href="/">12</a>）</span></p>
+        </ul>
+      </div>
+      <div class="blogs">
+        <figure><img src="images/02.jpg"></figure>
+        <ul>
+          <h3><a href="/">JavaScript的BOM对象</a></h3>
+          <p>BOM全称 Browser Object Model，浏览器对象模型。JavaScript是由浏览器中内置的javascript脚本解释器程序来执行javascript脚本语言的。为了便于对浏览器的操作，javascript封装了对浏览器的各个对象使得开发者可以方便的操作浏览器。...</p>
+          <p class="autor"><span class="lm f_l"><a href="/">个人博客</a></span><span class="dtime f_l">2016-02-19</span><span class="viewnum f_r">浏览（<a href="/">459</a>）</span><span class="pingl f_r">评论（<a href="/">12</a>）</span></p>
+        </ul>
+      </div>
+      <div class="blogs">
+        <figure><img src="images/03.jpg"></figure>
+        <ul>
+          <h3><a href="/">Ajax那些事儿</a></h3>
+          <p>Ajax 是一种在 XML，HTML，CSS 和 JavaScript 的帮助下创建更好，更快和更具交互式 Web 应用程序的新技术。它不是某种编程语言，而是一种在无需重新加载整个网页的情况之下，能够更新部分网页的技术。通过在后台跟服务器进行少量... </p>
+          <p class="autor"><span class="lm f_l"><a href="/">个人博客</a></span><span class="dtime f_l">2016-02-19</span><span class="viewnum f_r">浏览（<a href="/">459</a>）</span><span class="pingl f_r">评论（<a href="/">12</a>）</span></p>
+        </ul>
+      </div>
+      <div class="blogs">
+        <figure><img src="images/04.jpg"></figure>
+        <ul>
+          <h3><a href="/"> AngularJS 学习笔记</a></h3>
+          <p>AngularJS 能够通过 XMLHttpRequest（XHR）和 JSONP 请求与各种后端交流，拥有通用的 $http 服务以进行 XHR 和 JSONP 调用，以及专门面向 Restfu l后端接口的$resource 服务...</p>
+          <p class="autor"><span class="lm f_l"><a href="/">个人博客</a></span><span class="dtime f_l">2016-02-19</span><span class="viewnum f_r">浏览（<a href="/">459</a>）</span><span class="pingl f_r">评论（<a href="/">12</a>）</span></p>
+        </ul>
+      </div>
+      <div class="blogs">
+        <figure><img src="images/05.jpg"></figure>
+        <ul>
+          <h3><a href="/">Jquery 事件冒泡的介绍以及如何阻止事件冒泡</a></h3>
+          <p>在一个对象上触发某类事件（比如单击onclick事件），如果此对象定义了此事件的处理程序，那么此事件就会调用这个处理程序，如果没有定义此事件处理程序或者事件返回true，那么这个事件会向这个对象的父级对象传播...</p>
+          <p class="autor"><span class="lm f_l"><a href="/">个人博客</a></span><span class="dtime f_l">2016-02-19</span><span class="viewnum f_r">浏览（<a href="/">459</a>）</span><span class="pingl f_r">评论（<a href="/">12</a>）</span></p>
+        </ul>
+      </div>
+      <div class="blogs">
+        <figure><img src="images/06.jpg"></figure>
+        <ul>
+          <h3><a href="/">深入理解js 闭包</a></h3>
+          <p>要理解闭包，首先必须理解Javascript特殊的变量作用域。变量的作用域无非就是两种：全局变量和局部变量。Javascript语言的特殊之处，就在于函数内部可以直接读取全局变量...</p>
+          <p class="autor"><span class="lm f_l"><a href="/">个人博客</a></span><span class="dtime f_l">2016-02-19</span><span class="viewnum f_r">浏览（<a href="/">459</a>）</span><span class="pingl f_r">评论（<a href="/">12</a>）</span></p>
+        </ul>
+      </div>
+      <div class="blogs">
+        <figure><img src="images/07.jpg"></figure>
+        <ul>
+          <h3><a href="/">CSS中的Float知识点总结</a></h3>
+          <p>看了张鑫旭大神的两篇关于float（CSS float浮动的深入研究、详解及拓展(一),CSS float浮动的深入研究、详解及拓展(二)）的文章，这里总结一下float的知识...</p>
+          <p class="autor"><span class="lm f_l"><a href="/">个人博客</a></span><span class="dtime f_l">2016-02-19</span><span class="viewnum f_r">浏览（<a href="/">459</a>）</span><span class="pingl f_r">评论（<a href="/">12</a>）</span></p>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--article的右侧部分-->
+  <div class="r_box f_r">
+    <div class="tit01">
+      <h3>关注我</h3>
+      <div class="gzwm">
+        <ul>
+          <li><a class="xlwb" href="#" target="_blank">新浪微博</a></li>
+          <li><a class="txwb" href="#" target="_blank">腾讯微博</a></li>
+          <li><a class="rss" href="portal.php?mod=rss" target="_blank">RSS</a></li>
+          <li><a class="wx" href="mailto:admin@admin.com">邮箱</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--tit01 end-->
+    <div class="ad300x100"> <img src="images/ad300x100.jpg"> </div>
+    <div class="moreSelect" id="lp_right_select"> 
+      <script>
+window.onload = function ()
+{
+	var oLi = document.getElementById("tab").getElementsByTagName("li");
+	var oUl = document.getElementById("ms-main").getElementsByTagName("div");
+	
+	for(var i = 0; i < oLi.length; i++)
+	{
+		oLi[i].index = i;
+		oLi[i].onmouseover = function ()
+		{
+			for(var n = 0; n < oLi.length; n++) oLi[n].className="";
+			this.className = "cur";
+			for(var n = 0; n < oUl.length; n++) oUl[n].style.display = "none";
+			oUl[this.index].style.display = "block"
+		}	
+	}
+}
+</script>
+      <div class="ms-top">
+        <ul class="hd" id="tab">
+          <li class="cur"><a href="/">点击排行</a></li>
+          <li><a href="/">最新文章</a></li>
+          <li><a href="/">站长推荐</a></li>
+        </ul>
+      </div>
+      <div class="ms-main" id="ms-main">
+        <div style="display: block;" class="bd bd-news" >
+          <ul>
+            <li><a href="/" target="_blank">《JavaScript 闯关记》之简介</a></li>
+            <li><a href="/" target="_blank">JavaScript的BOM对象</a></li>
+            <li><a href="/" target="_blank">Ajax那些事儿</a></li>
+            <li><a href="/" target="_blank">AngularJS 学习笔记</a></li>
+            <li><a href="/" target="_blank">Jquery 事件冒泡的介绍以及如何阻止事件冒泡</a></li>
+            <li><a href="/" target="_blank">深入理解js 闭包</a></li>
+          </ul>
+        </div>
+        <div  class="bd bd-news">
+          <ul>
+            <li><a href="/" target="_blank">Ajax那些事儿</a></li>
+            <li><a href="/" target="_blank">Jquery 事件冒泡的介绍以及如何阻止事件冒泡</a></li>
+            <li><a href="/" target="_blank">CSS中的Float知识点总结</a></li>
+            <li><a href="/" target="_blank">《JavaScript 闯关记》之简介</a></li>
+            <li><a href="/" target="_blank">深入理解js 闭包</a></li>
+            <li><a href="/" target="_blank">AngularJS 学习笔记</a></li>
+          </ul>
+        </div>
+        <div class="bd bd-news">
+          <ul>
+            <li><a href="/" target="_blank">CSS中的Float知识点总结</a></li>
+            <li><a href="/" target="_blank">AngularJS 学习笔记</a></li>
+            <li><a href="/" target="_blank">Jquery 事件冒泡的介绍以及如何阻止事件冒泡</a></li>
+            <li><a href="/" target="_blank">深入理解js 闭包</a></li>
+            <li><a href="/" target="_blank">《JavaScript 闯关记》之简介</a></li>
+            <li><a href="/" target="_blank">JavaScript的BOM对象</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--ms-main end --> 
+    </div>
+    <!--切换卡 moreSelect end -->
+    
+    <div class="cloud">
+      <h3>标签云</h3>
+      <ul>
+        <li><a href="/">个人博客</a></li>
+        <li><a href="/">web开发</a></li>
+        <li><a href="/">前端设计</a></li>
+        <li><a href="/">Html</a></li>
+        <li><a href="/">CSS3</a></li>
+        <li><a href="/">Html5+css3</a></li>
+        <li><a href="/">百度</a></li>
+        <li><a href="/">Javasript</a></li>
+        <li><a href="/">web开发</a></li>
+        <li><a href="/">前端设计</a></li>
+        <li><a href="/">Html</a></li>
+        <li><a href="/">CSS3</a></li>
+        <li><a href="/">Html5+css3</a></li>
+        <li><a href="/">百度</a></li>
+      </ul>
+    </div>
+    <div class="tuwen">
+      <h3>图文推荐</h3>
+      <ul>
+        <li><a href="/"><img src="images/01.jpg"><b>《JavaScript 闯关记》之简介</b></a>
+          <p><span class="tulanmu"><a href="/">CSDN博客</a></span><span class="tutime">2016-05-15</span></p>
+        </li>
+        <li><a href="/"><img src="images/02.jpg"><b>JavaScript的BOM对象</b></a>
+          <p><span class="tulanmu"><a href="/">CSDN博客</a></span><span class="tutime">2016-05-15</span></p>
+        </li>
+        <li><a href="/" title="手机的16个惊人小秘密，据说99.999%的人都不知"><img src="images/03.jpg"><b>Ajax那些事儿</b></a>
+          <p><span class="tulanmu"><a href="/">CSDN博客</a></span><span class="tutime">2016-05-15</span></p>
+        </li>
+        <li><a href="/"><img src="images/06.jpg"><b>深入理解js 闭包</b></a>
+          <p><span class="tulanmu"><a href="/">CSDN博客</a></span><span class="tutime">2016-05-15</span></p>
+        </li>
+        <li><a href="/"><img src="images/04.jpg"><b>AngularJS 学习笔记</b></a>
+          <p><span class="tulanmu"><a href="/">CSDN博客</a></span><span class="tutime">2016-05-15</span></p>
+        </li>
+      </ul>
+    </div>
+    <div class="ad"> <img src="images/08.jpg"> </div>
+    <div class="links">
+      <h3><span>[<a href="/">申请友情链接</a>]</span>友情链接</h3>
+      <ul>
+        <li><a href="/">张宾个人博客</a></li>
+        <li><a href="/">web开发</a></li>
+        <li><a href="/">前端设计</a></li>
+        <li><a href="/">Html</a></li>
+        <li><a href="/">CSS3</a></li>
+        <li><a href="/">Html5+css3</a></li>
+        <li><a href="/">百度</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--r_box end --> 
+</article>
+<footer>
+  <p class="ft-copyright">张宾博客 Design by DanceSmile 蜀ICP备11002373号-1</p>
+  <div id="tbox"> <a id="togbook" href="/"></a> <a id="gotop" href="#top"></a> </div>
+</footer>
+</body>
+</html>
